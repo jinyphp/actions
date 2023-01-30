@@ -32,12 +32,5 @@
         "psr-4": {
             "Jiny\\Actions\\Tests\\": "tests/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Jiny\\Actions\\JinyActionsServiceProvider"
-            ]
-        }
     }
 }
