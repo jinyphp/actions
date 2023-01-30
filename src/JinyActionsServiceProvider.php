@@ -25,7 +25,7 @@ class JinyActionsServiceProvider extends ServiceProvider
         /* 라이브와이어 컴포넌트 등록 */
         $this->app->afterResolving(BladeCompiler::class, function () {
             /* 라이브와이어 컴포넌트 등록 */
-            Livewire::component('setActionRule', \Jiny\Actions\Http\Livewire\SetActionRule::class);
+            //Livewire::component('setActionRule', \Jiny\Actions\Http\Livewire\SetActionRule::class);
         });
 
     }
